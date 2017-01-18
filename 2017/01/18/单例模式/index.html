@@ -6,18 +6,18 @@
   <title>单例模式 | 何喆的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="单例模式应用场景是，在这个应用里面，单例对象的类必须保证只有一个实例存在。避免产生多个对象消耗过多的资源。
-##单例模式的步骤12345构造函数不对外开放``` ``` bash$ hexo new &quot;My New Post&quot;">
+##单例模式的步骤12341.构造函数不对外开放,一般为Private；2.通过静态方法或者枚举返回单例对象；3.确保单例对象有且只有一个尤其是在多线程环境下；4.确保单例对象在反序列化时不会重新构建对象；">
 <meta property="og:type" content="article">
 <meta property="og:title" content="单例模式">
 <meta property="og:url" content="http://yoursite.com/2017/01/18/单例模式/index.html">
 <meta property="og:site_name" content="何喆的博客">
 <meta property="og:description" content="单例模式应用场景是，在这个应用里面，单例对象的类必须保证只有一个实例存在。避免产生多个对象消耗过多的资源。
-##单例模式的步骤12345构造函数不对外开放``` ``` bash$ hexo new &quot;My New Post&quot;">
-<meta property="og:updated_time" content="2017-01-18T15:33:12.000Z">
+##单例模式的步骤12341.构造函数不对外开放,一般为Private；2.通过静态方法或者枚举返回单例对象；3.确保单例对象有且只有一个尤其是在多线程环境下；4.确保单例对象在反序列化时不会重新构建对象；">
+<meta property="og:updated_time" content="2017-01-18T15:37:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="单例模式">
 <meta name="twitter:description" content="单例模式应用场景是，在这个应用里面，单例对象的类必须保证只有一个实例存在。避免产生多个对象消耗过多的资源。
-##单例模式的步骤12345构造函数不对外开放``` ``` bash$ hexo new &quot;My New Post&quot;">
+##单例模式的步骤12341.构造函数不对外开放,一般为Private；2.通过静态方法或者枚举返回单例对象；3.确保单例对象有且只有一个尤其是在多线程环境下；4.确保单例对象在反序列化时不会重新构建对象；">
   
     <link rel="alternate" href="/atom.xml" title="何喆的博客" type="application/atom+xml">
   
@@ -59,9 +59,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -93,12 +93,12 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>单例模式应用场景是，在这个应用里面，单例对象的类必须保证只有一个实例存在。<br>避免产生多个对象消耗过多的资源。</p>
-<p>##单例模式的步骤<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">构造函数不对外开放</div><div class="line"></div><div class="line">``` </div><div class="line">``` bash</div><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure></p>
+<p>##单例模式的步骤<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">1.构造函数不对外开放,一般为Private；</div><div class="line">2.通过静态方法或者枚举返回单例对象；</div><div class="line">3.确保单例对象有且只有一个尤其是在多线程环境下；</div><div class="line">4.确保单例对象在反序列化时不会重新构建对象；</div></pre></td></tr></table></figure></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/18/单例模式/" data-id="ciy33ylyw0001f5fyttj9d5bt" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/18/单例模式/" data-id="ciy344lk00001idfyf5rxqv6i" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -109,7 +109,7 @@
   
   
     <a href="/2016/12/10/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">Ancien</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -142,7 +142,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
@@ -167,7 +167,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 zhe he<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
